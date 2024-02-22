@@ -9,6 +9,6 @@ int main(){
 printf("Ingrese el primer numero");
 scanf("%f, &num1);
 printf("Ingrese el segundo numero");
-  scanf("%f, &num2)
+scanf("%f, &num2)
   return 0;
 }
