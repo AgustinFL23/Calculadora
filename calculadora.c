@@ -15,6 +15,21 @@ int main(){
   printf("5.-Salir");
   scanf("%d",&op);
   switch(op){
+
+
+    case 4:
+      float num1, num2;
+      printf("Ingrese el dividendo);
+      scanf("%f", &num1);
+      printf("Ingrese el divisor");
+      scanf("%f", &num2) 
+      num2<0?printf("La respuesta es %f",division(num1,num2)):printf("Es imposible realiza una división entre 0");
+    case 5:
+      
+    break;
+    default:
+      
+    break;
     
   }
   //para añadir en la opcion de multiplicación
