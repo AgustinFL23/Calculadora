@@ -5,7 +5,15 @@ float resta(float* resta){}
 float multiplicacion(float* multiplicando){}
 float division(float dividendo, divisor){}
 int main(){
+  int op;
   printf("Seleccione la operacion que desea realizar/n");
+  printf("1.- Suma");
+  printf("2.-Resta");
+  printf("3.-Multiplicación");
+  printf("4.-División);
+  printf("5.-Salir");
+  scanf("%d",&op);
+  //para añadir en la opcion de multiplicación
 printf("Ingrese el primer numero");
 scanf("%f, &num1);
 printf("Ingrese el segundo numero");
