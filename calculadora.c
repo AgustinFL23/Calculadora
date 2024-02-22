@@ -13,6 +13,10 @@ int main(){
   printf("4.-División);
   printf("5.-Salir");
   scanf("%d",&op);
-  
+  //para añadir en la opcion de multiplicación
+printf("Ingrese el primer numero");
+scanf("%f, &num1);
+printf("Ingrese el segundo numero");
+scanf("%f, &num2)
   return 0;
 }
