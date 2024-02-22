@@ -23,7 +23,7 @@ int main(){
       scanf("%f", &num1);
       printf("Ingrese el divisor");
       scanf("%f", &num2) 
-      num2<0?printf("La respuesta es %f",division(num1,num2)):printf("Es imposible realiza una división entre 0");
+      num2!=0?printf("La respuesta es %f",division(num1,num2)):printf("Es imposible realiza una división entre 0");
     case 5:
       
     break;
