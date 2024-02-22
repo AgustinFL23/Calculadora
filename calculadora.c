@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-float suma(float[] sumandos){} //eligan la que quieran hacer
-float resta(float[] sumandos){}
-float multiplicacion(float[] sumandos){}
-float division(float[] sumandos){}
+float suma(float* sumandos){} //elijan la que quieran hacer
+float resta(float* resta){}
+float multiplicacion(float* multiplicando){}
+float division(float dividendo, divisor){}
 int main(){
   printf("Seleccione la operacion que desea realizar/n");
   
