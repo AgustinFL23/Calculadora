@@ -7,7 +7,7 @@ float division(float dividendo, divisor){};
 int main(){
   int op=6;
 
-  while(op!=5{
+  while(op!=5){
   printf("Seleccione la operacion que desea realizar\n");
   printf("1.- Suma");
   printf("2.-Resta");
@@ -19,7 +19,7 @@ int main(){
   float num1, num2;
     
     case 1:
-      printf("Ingrese el primer numero:);
+      printf("Ingrese el primer numero:");
       scanf("%f", &num1);
       printf("Ingrese el segundo numero:");
       scanf("%f", &num2)
@@ -27,7 +27,7 @@ int main(){
     break;
     
     case 2:
-      printf("Ingrese el primer numero:);
+      printf("Ingrese el primer numero:");
       scanf("%f", &num1);
       printf("Ingrese el segundo numero:");
       scanf("%f", &num2)
@@ -35,7 +35,7 @@ int main(){
     break;
     
     case 3:
-      printf("Ingrese el primer numero:);
+      printf("Ingrese el primer numero:");
       scanf("%f", &num1);
       printf("Ingrese el segundo numero:");
       scanf("%f", &num2)
@@ -43,9 +43,9 @@ int main(){
     break;
     
     case 4:
-      printf("Ingrese el dividendo);
+      printf("Ingrese el dividendo:");
       scanf("%f", &num1);
-      printf("Ingrese el divisor");
+      printf("Ingrese el divisor:");
       scanf("%f", &num2) 
       num2!=0?printf("La respuesta es %f",division(num1,num2)):printf("Es imposible realiza una división entre 0");
     case 5:
